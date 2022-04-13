@@ -1,6 +1,8 @@
+# Packages
+
 ```python
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import numpy as np
+import pandas as pd
 
 from datetime import datetime
 from scipy.stats import skew  # for some statistics
@@ -15,7 +17,6 @@ import sklearn.linear_model as linear_model
 import seaborn as sns
 from sklearn.manifold import TSNE
 from sklearn.cluster import KMeans
-from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 import xgboost as xgb
 
@@ -1347,4 +1348,4 @@ pd.DataFrame({'Id': ID, 'SalePrice': Final_labels}).to_csv("G:\我的雲端硬�
 3. https://www.kaggle.com/code/jesucristo/1-house-prices-solution-top-1/notebook?scriptVersionId=12846740
 
 
-Best score is 0.12451
+Best score is 0.12451 (top 15%)
